@@ -1,4 +1,4 @@
-<h1><strong>System Monitor&nbsp; </strong></h1>
+<h1><strong>SYSTEM MONITOR&nbsp; </strong></h1>
 <p style="text-align: justify;">This project application is made using the Electron framework with the use of the following web tools: HTML, CSS, and JavaScript. It is based from the <a href="https://www.electronjs.org/docs/tutorial/quick-start"> Quick Start Guide </a> where you can start making a simple electron application&nbsp;</p>
 <p style="text-align: justify;"><strong>Requirements:</strong></p>
 <ul>
