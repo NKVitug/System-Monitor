@@ -1,0 +1,14 @@
+{
+  "name": "electron-tutorial",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "NKVitug",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "electron": "^9.2.0"
+  }
+}

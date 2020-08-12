@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://bootswatch.com/4/united/bootstrap.min.css">
+	<title>SysInfoApp</title>
+</head>
+<body style="background-color: #E5E8E8">
+	<div class="container">
+		<h1 class="pt-3"; style="color:	#8E44AD"><strong>System Monitor</strong></h1>
+		<div id="output"></div>
+	</div>
+</body>
+<script>
+	console.log(process)
+	let output =  `
+  <div class="main" id="section">
+    <p style="font-size:15px";><a href="#sec1">App Version Data</a> | <a href="#sec2">System Specs</a> | <a href="#sec3">System Memory</a> | <a href="#sec4">Computer Info</a></p>
+  </div>
+
+  <div class="main" id="sec1">
+		<h2 class="page-header pt-3">App Version Data</h2>
+		<ul class="list-group">
+		<li class="list-group-item list-group-item-secondary">Node: ${process.versions.node}</li>
+		<li class="list-group-item list-group-item-dark">Chrome: ${process.versions.chrome}</li>
+		<li class="list-group-item list-group-item-secondary">Electron: ${process.versions.electron}</li>
+		</ul>
+ <p style="text-align: right"> <a href="#section">↑ Back to Top</a></p>
+
+ <div class="main" id="sec2">
+		<h2 class="page-header pt-3">System Specs</h2>
+		<ul class="list-group">
+		<li class="list-group-item list-group-item-secondary">System Architecture: ${process.arch}</li>
+		<li class="list-group-item list-group-item-dark">Processor Identfier: ${process.env.PROCESSOR_IDENTIFIER}</li>
+		<li class="list-group-item list-group-item-secondary">Printer: ${process.env.PRINTER}</li>
+		</ul>
+ <p style="text-align: right"> <a href="#section">↑ Back to Top</a></p>
+
+ <div class="main" id="sec3">
+		<h2 class="page-header pt-3">System Memory</h2>
+		<ul class="list-group">
+		<li class="list-group-item list-group-item-secondary">Total: ${process.getSystemMemoryInfo().total}</li>
+		<li class="list-group-item list-group-item-dark">Free: ${process.getSystemMemoryInfo().free}</li>
+		<li class="list-group-item list-group-item-secondary">Swap Total: ${process.getSystemMemoryInfo().swapTotal}</li>
+		<li class="list-group-item list-group-item-dark">Swap Free: ${process.getSystemMemoryInfo().swapFree}</li>
+		</ul>
+  <p style="text-align: right"> <a href="#section">↑ Back to Top</a></p>
+
+ <div class="main" id="sec4">
+		<h2 class="page-header pt-3">Computer Info</h2>
+		<ul class="list-group">
+		<li class="list-group-item list-group-item-secondary">Computer Name: ${process.env.USERDOMAIN}</li>
+		<li class="list-group-item list-group-item-dark">Username: ${process.env.USERNAME}</li>
+		<li class="list-group-item list-group-item-secondary">User Home Path: ${process.env.HOME}</li>
+		<li class="list-group-item list-group-item-dark">System Drive: ${process.env.SYSTEMDRIVE}</li>
+		<li class="list-group-item list-group-item-secondary">System Root: ${process.env.SYSTEMROOT}</li>
+		</ul><br>
+  <p style="text-align: right"> <a href="#section">↑ Back to Top</a></p></div>
+		`
+	document.getElementById('output').innerHTML = output
+</script>
+<script src="./renderer.js"></script>
+</html>
