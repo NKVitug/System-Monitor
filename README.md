@@ -19,10 +19,10 @@
 <p><strong>Author Credit:&nbsp;</strong><em>Traversy Media<br /></em><strong>Youtube Video Link: <a href="https://www.youtube.com/watch?v=mr9Mtm_TRpw">https://www.youtube.com/watch?v=2RxHQoiDctI</a></strong></p>
 <p>&nbsp;</p>
 <p><strong>USER INTERFACE</strong></p>
-<table style="border-collapse: collapse; width: 100%;" border="1">
+<table style="border-collapse: collapse; width: 100%;" border="0">
   <tbody>
     <tr>
-      <td style="width: 50%;"><img src="https://github.com/NKVitug/System-Monitor/blob/master/System-Monitor-1.JPG?raw=true" alt="System-Monitor" width="500" height="500"></td>
+      <td style="width: 50%;"><img src="https://github.com/NKVitug/System-Monitor/blob/master/System-Monitor-1.JPG?raw=true" alt="System-Monitor" width="500" height="700"></td>
       </td>
     </tr>
   </tbody>
