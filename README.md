@@ -22,7 +22,7 @@
 <table style="border-collapse: collapse; width: 100%;" border="1">
   <tbody>
     <tr>
-      <td style="width: 50%;"><img src="https://github.com/NKVitug/System-Monitor/blob/master/System-Monitor.JPG?raw=true" alt="System-Monitor" width="800" height="800"></td>
+      <td style="width: 50%;"><img src="https://github.com/NKVitug/System-Monitor/blob/master/System-Monitor.JPG?raw=true" alt="System-Monitor" width="1000" height="1000"></td>
       </td>
     </tr>
   </tbody>
