@@ -18,3 +18,13 @@
 <p>Be also creative and try designing your UI</p>
 <p><strong>Author Credit:&nbsp;</strong><em>Traversy Media<br /></em><strong>Youtube Video Link: <a href="https://www.youtube.com/watch?v=mr9Mtm_TRpw">https://www.youtube.com/watch?v=2RxHQoiDctI</a></strong></p>
 <p>&nbsp;</p>
+<p><strong>USER INTERFACE</strong></p>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+  <tbody>
+    <tr>
+      <td style="width: 50%;"><img src="https://github.com/NKVitug/System-Monitor/blob/master/System-Monitor.JPG?raw=true" alt="System-Monitor" width="400" height="400"></td>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
