@@ -17,7 +17,6 @@
 <strong><em>npm start</em></strong></pre>
 <p>Be also creative and try designing your UI</p>
 <p><strong>Author Credit:&nbsp;</strong><em>Traversy Media<br /></em><strong>Youtube Video Link: <a href="https://www.youtube.com/watch?v=mr9Mtm_TRpw">https://www.youtube.com/watch?v=2RxHQoiDctI</a></strong></p>
-<p>&nbsp;</p>
 <p><strong>USER INTERFACE</strong></p>
 <table style="border-collapse: collapse; width: 100%;" border="0">
   <tbody>
